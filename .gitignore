@@ -62,3 +62,4 @@ typings/
 
 example/
 .vscode
+.package-lock.json
