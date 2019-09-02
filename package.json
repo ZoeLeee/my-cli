@@ -1,5 +1,5 @@
 {
-  "name": "lz-cli",
+  "name": "lz-base-cli",
   "version": "1.0.0",
   "description": "个人脚手架",
   "main": "index.js",
