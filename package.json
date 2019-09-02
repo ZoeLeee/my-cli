@@ -4,7 +4,7 @@
   "description": "个人脚手架",
   "main": "index.js",
   "bin": {
-    "macaw": "./bin/macaw.js"
+    "lz": "./bin/www"
   },
   "directories": {
     "lib": "lib"
