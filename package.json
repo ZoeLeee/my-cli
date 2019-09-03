@@ -1,6 +1,6 @@
 {
   "name": "lz-base-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "个人脚手架",
   "main": "index.js",
   "bin": {
@@ -13,12 +13,12 @@
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
     "download-git-repo": "^2.0.0",
-    "inquirer": "^7.0.0",
-    "ora": "^3.4.0",
     "handlebars": "^4.1.2",
+    "inquirer": "^7.0.0",
     "latest-version": "^5.1.0",
     "log-symbols": "^3.0.0",
-    "metalsmith": "^2.3.0"
+    "metalsmith": "^2.3.0",
+    "ora": "^3.4.0"
   },
   "devDependencies": {},
   "scripts": {
