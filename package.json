@@ -14,14 +14,14 @@
     "commander": "^3.0.1",
     "download-git-repo": "^2.0.0",
     "inquirer": "^7.0.0",
-    "ora": "^3.4.0"
-  },
-  "devDependencies": {
-    "glob": "^7.1.4",
+    "ora": "^3.4.0",
     "handlebars": "^4.1.2",
     "latest-version": "^5.1.0",
     "log-symbols": "^3.0.0",
     "metalsmith": "^2.3.0"
+  },
+  "devDependencies": {
+   
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
