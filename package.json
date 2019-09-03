@@ -1,6 +1,6 @@
 {
   "name": "lz-base-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "个人脚手架",
   "main": "index.js",
   "bin": {
