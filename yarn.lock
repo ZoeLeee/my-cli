@@ -736,6 +736,15 @@
   "resolved" "https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz"
   "version" "1.0.0"
 
+"fs-extra@^10.0.0":
+  "integrity" "sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ=="
+  "resolved" "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.0.tgz"
+  "version" "10.0.0"
+  dependencies:
+    "graceful-fs" "^4.2.0"
+    "jsonfile" "^6.0.1"
+    "universalify" "^2.0.0"
+
 "fs-extra@~0.26.5":
   "integrity" "sha1-muH92UiXeY7at20JGM9C0MMYT6k="
   "resolved" "https://registry.npmjs.org/fs-extra/-/fs-extra-0.26.7.tgz"
@@ -855,7 +864,7 @@
     "url-parse-lax" "^3.0.0"
     "url-to-options" "^1.0.1"
 
-"graceful-fs@^4.1.10", "graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.1.9":
+"graceful-fs@^4.1.10", "graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.1.9", "graceful-fs@^4.2.0":
   "integrity" "sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg=="
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.8.tgz"
   "version" "4.2.8"
@@ -1120,6 +1129,15 @@
   "integrity" "sha1-NzaitCi4e72gzIO1P6PWM6NcKug="
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz"
   "version" "2.4.0"
+  optionalDependencies:
+    "graceful-fs" "^4.1.6"
+
+"jsonfile@^6.0.1":
+  "integrity" "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ=="
+  "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "universalify" "^2.0.0"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
@@ -1938,6 +1956,11 @@
   dependencies:
     "buffer" "^5.2.1"
     "through" "^2.3.8"
+
+"universalify@^2.0.0":
+  "integrity" "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ=="
+  "resolved" "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz"
+  "version" "2.0.0"
 
 "unyield@0.0.1":
   "integrity" "sha1-FQ5l2kK/d0JEW5WKZOubhdHSsYA="
