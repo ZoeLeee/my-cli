@@ -1,7 +1,7 @@
 {
   "name": "lz-base-cli",
-  "version": "2.0.0",
-  "description": "个人脚手架",
+  "version": "2.0.1",
+  "description": "React简易脚手架",
   "main": "lib/index.js",
   "type": "module",
   "bin": {
